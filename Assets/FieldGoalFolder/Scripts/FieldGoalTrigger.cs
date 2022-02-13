@@ -28,10 +28,10 @@ public class FieldGoalTrigger : MonoBehaviour
     void Update()
     {
         // To play on your Android device, comment out this Input. Hit "Space" bar to fire.
-        if (Input.GetKeyDown(KeyCode.Space))
+        // if (Input.GetKeyDown(KeyCode.Space))
         
         // To play on keyboard, comment out this Input. 
-        // if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
             football.AddForce(-football.transform.right * footballSpeed, ForceMode.VelocityChange);
             print("Shooting the shot");
