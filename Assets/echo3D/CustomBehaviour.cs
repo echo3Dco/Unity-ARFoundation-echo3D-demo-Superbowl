@@ -12,7 +12,6 @@ using UnityEngine;
 
 public class CustomBehaviour : MonoBehaviour
 {
-    Rigidbody rb;
 
     [HideInInspector]
     public Entry entry;
@@ -25,11 +24,7 @@ public class CustomBehaviour : MonoBehaviour
     void Start()
     {
 
-        // Add RemoteTransformations script to object and set its entry as long as this object is not named "Football.glb"
-        // if (this.gameObject.name != "football-wilson.glb")
-        // { 
-            this.gameObject.AddComponent<RemoteTransformations>().entry = entry;
-        // } 
+        this.gameObject.AddComponent<RemoteTransformations>().entry = entry;
 
         // Query additional data to get the name
         string value = "";
@@ -38,16 +33,5 @@ public class CustomBehaviour : MonoBehaviour
             // Set name
             this.gameObject.name = value;
         }
-    }
-
-    void Update()
-    {
-       /* Removed TransformRotations from the imported projectile football
-        
-        * if (this.gameObject.name != "football-wilson.glb" && this.gameObject.GetComponent<RemoteTransformations>().enabled == true)
-        {
-            this.gameObject.AddComponent<RemoteTransformations>().enabled = false;
-            
-        } */ 
     }
 }
