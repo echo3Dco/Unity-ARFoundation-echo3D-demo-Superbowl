@@ -6,7 +6,7 @@ Throw the football at the Super Bowl using echo3D and ARFoundation!
 Don't have an API key? Make sure to register for FREE at [echo3D](https://www.echo3d.co/).
 
 # Packages Used
-* For AR-supported Android devices
+For AR-supported Android devices
 * Unity 2019.4.0f1
 * [ARFoundation 3.1.0](https://www.youtube.com/watch?v=0mpsiO2lCx0)
 * ARCore XR Plugin 3.1.0
