@@ -1,4 +1,4 @@
-"# SuperbowlAR" 
+# Unity-ARFoundation-echo3D-demo-Superbowl
 
 Throw the football at the Super Bowl using echo3D and ARFoundation! 
 
