@@ -18,7 +18,7 @@ For AR-supported Android devices
 Tap the screen on your Android device to fire the football. Celebrate your win as the crowd goes wild!
 
 # Setup
-* Clone the 'GitHub\Unity-ARFoundation-echo3D-example\arfoundationbebe' project (not master branch)
+* Clone this repo: https://github.com/echo3Dco/Unity-ARFoundation-echo3D-demo-Superbowl/ 
 * [Install the echo3D Unity SDK](https://docs.echo3d.co/unity/installation)
 * Find the 3D models in 'FieldGoalFolder' 'Models' folder: GitHub\Unity-ARFoundation-echo3D-example\Assets\FieldGoalFolder.
 * Go to [echo3D console](https://console.echo3d.co/#/pages/contentmanager) and click "Add to Cloud" and upload the models (we used 1 key key per model).
