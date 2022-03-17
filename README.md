@@ -23,7 +23,8 @@ Tap the screen on your Android device to fire the football. Celebrate your win a
 * Find the 3D models in 'FieldGoalFolder' 'Models' folder: GitHub\Unity-ARFoundation-echo3D-example\Assets\FieldGoalFolder.
 * Go to [echo3D console](https://console.echo3d.co/#/pages/contentmanager) and click "Add to Cloud" and upload the models (we used 1 key key per model).
 * Open the 'FieldGoal' scene.
-* [Add a 3D model](https://docs.echo3d.co/quickstart/add-a-3d-model) to the cloud in the echo3D console and paste their keys under the correct “Variant” in the Hierarchy.
+* In Unity > Hierarchy, click on each "Variant" object.
+* In the Inspector for each object, paste each corresponding API key from the echo3D console. 
 * [Set up](https://www.youtube.com/watch?v=0mpsiO2lCx0) your Build Settings & Player Settings and export your build to your Android device.
 * (Optional) In the 'FieldGoalTrigger.cs' script, you can change the Input on lines 33 or 36 to play in Unity instead of your Android device.
 
