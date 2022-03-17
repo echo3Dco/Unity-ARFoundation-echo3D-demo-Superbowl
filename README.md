@@ -28,7 +28,7 @@ Tap the screen on your Android device to fire the football. Celebrate your win a
 * (Optional) In the 'FieldGoalTrigger.cs' script, you can change the Input on lines 33 or 36 to play in Unity instead of your Android device.
 
 # Learn more
-Refer to our [documentation](https://docs.echo3d.co/) to learn more about how to use FaceAR and echo3D.
+Refer to our [documentation](https://docs.echo3d.co/) to learn more about how to use echo3D.
 
 # Support
 Feel free to reach out at support@echo3D.co or join our [support channel on Slack](https://echo3d.slack.com/ssb/redirect).
